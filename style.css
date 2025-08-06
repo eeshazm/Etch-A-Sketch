@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(88, 87, 86);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#input {
+    display: flex;
+    gap: 10px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#grid{
+    display: flex;
+    flex-direction: column;
+    width: 90vw; /* Fill 90% of viewport width */
+    aspect-ratio: 1 / 1; /* Make entire grid a square */
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(133, 135, 137);
+}
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex: 1; /* Each column takes equal horizontal space */
+    border: 1px solid #000000;
+    aspect-ratio: 1 / 1; /* Ensure squares */
+    box-sizing: border-box;
+}
+
